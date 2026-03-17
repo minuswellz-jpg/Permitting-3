@@ -1,3 +1,1 @@
-{
-  "buildCommand": "npm install typescript @types/react @types/node && npm run build"
-}
+{}
