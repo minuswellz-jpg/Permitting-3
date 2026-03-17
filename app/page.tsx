@@ -270,30 +270,4 @@ export default function HomePage() {
 
           <div className="row gap-sm wrap top-margin">
             <button className="button secondary" onClick={resetAll}>Reset</button>
-            <button className="button" onClick={downloadJson}>Download JSON</button>
-          </div>
-        </section>
-
-        <aside className="card sidebar">
-          <h2>What this collects</h2>
-          <div className="mini-card">
-            <ul>
-              <li>Applicant info</li>
-              <li>Project location</li>
-              <li>Dock project details</li>
-              <li>Documents received</li>
-              <li>Likely agency routes</li>
-            </ul>
-          </div>
-        </aside>
-      </div>
-
-      <section className="card preview-card">
-        <div className="card-header">
-          <h2>Live JSON Preview</h2>
-        </div>
-        <pre className="json-preview">{JSON.stringify(finalJson, null, 2)}</pre>
-      </section>
-    </main>
-  );
-}
+            <button
