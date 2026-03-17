@@ -1,5 +1,3 @@
-import "./globals.css";
-
 export const metadata = {
   title: "Dock Permit AI",
   description: "Dock permit intake assistant"
